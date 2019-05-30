@@ -4,3 +4,8 @@
 
 for letter in range(ord('a'), ord('z')+1):
     print(chr(letter))
+
+a = 'a'
+a = ord(a)
+print(chr(a))
+
