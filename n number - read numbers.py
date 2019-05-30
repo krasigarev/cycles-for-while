@@ -6,4 +6,3 @@ for n in range(1, n+1):
     sum += input_number
 
 print(sum)
-
