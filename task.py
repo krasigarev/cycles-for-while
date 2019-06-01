@@ -9,3 +9,6 @@ for number in range(1, 1001):
         print(number)
     else:
         print("Not end 7")
+
+a = {5,2,3,1,4}
+print("a= ", a)
