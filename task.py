@@ -4,6 +4,6 @@ for item in range(1, 21):
 for number in range(1, 101):
     print(number)
 
-for number in range(1, 1000):
+for number in range(1, 1001):
     if number % 10 == 7:
         print(number)
