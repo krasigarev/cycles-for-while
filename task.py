@@ -7,3 +7,5 @@ for number in range(1, 101):
 for number in range(1, 1001):
     if number % 10 == 7:
         print(number)
+    else:
+        print("Not end 7")
