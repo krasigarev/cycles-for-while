@@ -1,0 +1,23 @@
+def add(n1, n2): return n1 + n2
+def multi(n1, n2): return n1 * n2
+def mines(n1, n2): return n1 - n2
+def division(n1, n2): return n1 / n2
+
+
+opers = {
+    '+': add,
+    '*': multi,
+    '-': mines,
+    '/': division
+}
+
+while True:
+    expr = input('Result: ')
+    if expr:
+        try:
+            (op1, op, op2) = expr.split(' ')
+            print(opers[op](float(op1), float(op2)))
+        except Exception:
+            print("Sorry, I couldn`t make sense of that")
+    else:
+        break
