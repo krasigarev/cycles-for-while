@@ -1,0 +1,12 @@
+def compare_values(val1, val2):
+    if val1 < val2:
+        return val2
+    return val1
+
+
+if __name__ == "__main__":
+    Value_type = input()
+    value_1 = input()
+    value_2 = input()
+
+    print(compare_values(val1=value_1, val2=value_2))
